@@ -7,7 +7,7 @@ SPDX-License-Identifier: MPL-2.0
 
 # Skills
 
-tagline...
+Agent skills for engineers who care about quality and aesthetics.
 
 <!-- BADGES -->
 [![License: MPL-2.0](https://badgen.net/github/license/thehale/skills)](https://github.com/thehale/skills/blob/main/LICENSE)
@@ -16,7 +16,18 @@ tagline...
 [![Follow Joseph Hale on LinkedIn](https://jhale.dev/badges/follow.svg)](https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=thehale)
 </div>
 
-## Quickstart
+## Included
+
+These are skills I use every day at 37signals as part of writing high quality, aesthetically pleasing code and documentation.
+
+- `commit`: write clear commit messages for humans.
+- `git-gardening`: organize a branch's commit history into a clear narrative.
+- `refine`: clean up slop.
+
+Copy a folder from `skills/` into `~/.agents/skills/` (or `~/.claude/skills/`)
+to use it.
+
+## Development
 
 ```bash
 bin/setup  # Install the tools
