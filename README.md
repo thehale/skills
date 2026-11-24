@@ -5,12 +5,12 @@ SPDX-License-Identifier: MPL-2.0
 
 <div align="center">
 
-# Template
+# Skills
 
-A starting point for new projects.
+tagline...
 
 <!-- BADGES -->
-[![License: MPL-2.0](https://badgen.net/github/license/thehale/template)](https://github.com/thehale/template/blob/main/LICENSE)
+[![License: MPL-2.0](https://badgen.net/github/license/thehale/skills)](https://github.com/thehale/skills/blob/main/LICENSE)
 [![Sponsor thehale on GitHub](https://badgen.net/badge/icon/Sponsor/pink?icon=github&label)](https://github.com/sponsors/thehale)
 [![Joseph Hale's software engineering blog](https://jhale.dev/badges/website.svg)](https://jhale.dev)
 [![Follow Joseph Hale on LinkedIn](https://jhale.dev/badges/follow.svg)](https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=thehale)
@@ -20,7 +20,6 @@ A starting point for new projects.
 
 ```bash
 bin/setup  # Install the tools
-bin/init --name my-package  # Start a package named my-package
 bin/ci     # Run the checks
 bin/ci --fix  # Fix what can be fixed automatically
 ```
