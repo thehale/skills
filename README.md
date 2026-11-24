@@ -18,11 +18,18 @@ Agent skills for engineers who care about quality and aesthetics.
 
 ## Included
 
-These are skills I use every day at 37signals as part of writing high quality, aesthetically pleasing code and documentation.
+These are skills I use every day at [37signals](https://37signals.com/) as part
+of writing high quality, aesthetically pleasing code and documentation.
+
+General Purpose:
 
 - `commit`: write clear commit messages for humans.
 - `git-gardening`: organize a branch's commit history into a clear narrative.
 - `refine`: clean up slop.
+
+Project Specific:
+
+- `consistency`: add to any project to record and respect major decisions.
 
 Copy a folder from `skills/` into `~/.agents/skills/` (or `~/.claude/skills/`)
 to use it.
