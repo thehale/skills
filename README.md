@@ -25,7 +25,7 @@ General Purpose:
 
 - `commit`: write clear commit messages for humans.
 - `git-gardening`: organize a branch's commit history into a clear narrative.
-- `refine`: clean up slop.
+- `refine`: takes code from "make it work" to "make it right".
 
 Project Specific:
 
