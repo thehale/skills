@@ -112,7 +112,7 @@ clean up.
       "Co-Authored-By" lines AND authors of consolidated commits
     - Read each carried-over title again, since a source commit's title can
       name a design the branch later removed
-    - Run tests and linting at each step
+    - Run tests and linting at each step[^rebase-exec]
     - Fix any issues that arise
 
 2. **Verify and clean up**
@@ -199,3 +199,7 @@ During analysis, if unclear:
 - "Are there commits with rationale that should be preserved separately?"
 - "Should I start with a basic squash to make planning easier?"
 - "Who should be credited as co-authors for the new commits?"
+
+[^rebase-exec]: Run them as `git rebase -x 'env -u GIT_DIR <tests>'`. In a
+    linked worktree, a test that runs `git init` otherwise turns the shared
+    repository bare.

@@ -34,5 +34,8 @@ else
 	echo "✗ WARNING: Diffs do not match! Changes may have been lost."
 	echo "  Compare with: diff ${NEW_DIFF} ${BACKUP_DIFF}"
 	echo "  Restore with: git reset --hard ${BACKUP_BRANCH}"
+	echo "  Changed code on purpose? Check it with:"
+	echo "    git range-diff ${MERGE_BASE} ${BACKUP_BRANCH} HEAD"
+	echo "  and keep ${BACKUP_BRANCH}."
 	exit 1
 fi
